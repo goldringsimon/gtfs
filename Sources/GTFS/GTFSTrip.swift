@@ -18,7 +18,7 @@ public struct Trip: Decodable {
     public let directionId: Int?
     public let shapeId: String?
     
-    /*enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case routeId = "route_id"
         case serviceId = "service_id"
         case tripId = "trip_id"
@@ -26,5 +26,5 @@ public struct Trip: Decodable {
         case tripShortName = "trip_short_name"
         case directionId = "direction_id"
         case shapeId = "shape_id"
-    }*/
+    }
 }

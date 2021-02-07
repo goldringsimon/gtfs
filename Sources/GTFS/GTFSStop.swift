@@ -16,13 +16,13 @@ public struct Stop: Decodable {
     public let stopLat: Double?
     public let stopLon: Double?
     
-    /*enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case stopId = "stop_id"
         case stopCode = "stop_code"
         case stopName = "stop_name"
         case stopLat = "stop_lat"
         case stopLon = "stop_lon"
-    }*/
+    }
     
     //let stopDesc: String
     //let platformCode: String

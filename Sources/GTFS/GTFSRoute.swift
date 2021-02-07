@@ -24,7 +24,7 @@ public struct Route: Decodable {
     public let lineId: String?
     public let listedRoute: String?
     
-    /*enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case routeId = "route_id"
         case agencyId = "agency_id"
         case routeShortName = "route_short_name"
@@ -38,7 +38,7 @@ public struct Route: Decodable {
         case routeFareClass = "route_fare_class"
         case lineId = "line_id"
         case listedRoute = "listed_route"
-    }*/
+    }
 }
 
 public enum GTFSRouteType: Int, CaseIterable {

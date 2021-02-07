@@ -16,13 +16,13 @@ public struct ShapePoint: Decodable {
     public let ptSequence: Int
     public let distTraveled: Float?
     
-    /*enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case shapeId = "shape_id"
         case ptLat = "shape_pt_lat"
         case ptLon = "shape_pt_lon"
         case ptSequence = "shape_pt_sequence"
         case distTraveled = "shape_dist_traveled"
-    }*/
+    }
     
     public static func getOverviewViewport(for shapePoints: [ShapePoint]) -> CGRect {
         let points = shapePoints.map { CGPoint(x: $0.ptLon, y: $0.ptLat) }
